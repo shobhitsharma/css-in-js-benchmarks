@@ -1,0 +1,12 @@
+{
+  "name": "css-in-js-benchmarks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:shobhitsharma/css-in-js-benchmarks.git",
+  "author": "Shobhit Sharma <772855+shobhitsharma@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
