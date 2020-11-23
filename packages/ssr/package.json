@@ -1,9 +1,10 @@
 {
-  "name": "ssr-cssinjs-benchmarks",
-  "version": "0.0.1",
+  "name": "ssr",
+  "version": "1.0.0",
   "description": "Repo to test performance of various SSR approaches",
   "main": "index.js",
   "scripts": {
+    "setup": "pnpm install",
     "build:all": "pnpm run build --r",
     "bench:all": "node bench.js && node compile.js > result.md"
   },
@@ -13,9 +14,9 @@
     "preact",
     "htm"
   ],
-  "author": "Daniil Petrov",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^4.1.0"
+    "chalk": "^4.1.0",
+    "pnpm": "^5.13.4"
   }
 }

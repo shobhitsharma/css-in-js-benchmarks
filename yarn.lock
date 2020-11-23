@@ -4580,6 +4580,11 @@ pkg-dir@^4.2.0:
   dependencies:
     find-up "^4.0.0"
 
+pnpm@^5.13.4:
+  version "5.13.4"
+  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-5.13.4.tgz#6abe31b32893b200217addeae23346e35b4c646a"
+  integrity sha512-Q/1SlzLitcrggjTJN7Ooiu2y5ty+yTaxJYb7xGt6QpNijsIhxkGK58pP8IZYh04C7+8aI9MxNgppOTOyQG7k5g==
+
 popper.js@^1.15.0:
   version "1.16.1"
   resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.16.1.tgz#2a223cb3dc7b6213d740e40372be40de43e65b1b"
